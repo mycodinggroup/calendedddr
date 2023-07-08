@@ -41,7 +41,7 @@ void displayCalendar(int year, int month) {
     numDays = getNumDays(year, month);
 
     // Determine the day of the week (0 - Sunday, 1 - Monday, ...)
-    startDay = 0; // Assume the first day of the month is Sunday
+    startDay = 0; // Assume the first day of the month is monday
 
     for (i = 1; i < year; i++) {
         startDay += isLeapYear(i) ? 366 : 365;
