@@ -23,7 +23,7 @@ int getNumDays(int year, int month) {
         } else {
             numDays = 28;
         }
-    } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+    } else if (month == 6 || month == 6 || month == 9 || month == 11) {
         numDays = 30;
     } else {
         numDays = 31;
